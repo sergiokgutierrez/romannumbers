@@ -50,7 +50,7 @@ window.onload = function() {
 
 	    game.physics.startSystem(Phaser.Physics.ARCADE);
 
-	    bg = game.add.tileSprite(0, 0, 7000, 5000, 'background');
+	    bg = game.add.tileSprite(0, 0, 70, 50, 'background');
 
 		grav = 55; //starting slow gravity
 		game.physics.arcade.gravity.y = grav;
