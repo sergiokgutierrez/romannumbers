@@ -13,7 +13,7 @@ window.onload = function() {
     
     "use strict";
     
-	var game = new Phaser.Game(700, 500, Phaser.CANVAS, 'game', { preload: preload, create: create, update: update, render: render });
+	var game = new Phaser.Game(4000, 2500, Phaser.CANVAS, 'game', { preload: preload, create: create, update: update, render: render });
 
 	function preload() {
 
@@ -50,7 +50,7 @@ window.onload = function() {
 
 	    game.physics.startSystem(Phaser.Physics.ARCADE);
 
-	    bg = game.add.tileSprite(0, 0, 70, 50, 'background');
+	    bg = game.add.tileSprite(0, 0, 700, 500, 'background');
 
 		grav = 55; //starting slow gravity
 		game.physics.arcade.gravity.y = grav;
