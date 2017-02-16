@@ -18,8 +18,8 @@ window.onload = function() {
 	function preload() {
 
 		//Add my spirites and background image
-		game.load.spritesheet('yume', 'assets/yume.png', 32, 48);
-	    game.load.image('background', 'assets/romanb.jpg');
+		game.load.spritesheet('yume', 'assets/nurse.png', 32, 48);
+	    game.load.image('background', 'assets/city_background.jpg');
 		game.load.image('effectie', 'assets/1.png');
 		game.load.image('rOne', 'assets/1.png');
 		game.load.image('rTwo', 'assets/2.png');
