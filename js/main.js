@@ -183,7 +183,7 @@ window.onload = function() {
 				gameOver();
 			}
 			lNumber = Math.floor((Math.random() * 5) + 1);			
-			latinNumber.text = 'collect roman number \n'+lNumber; //display new score
+			latinNumber.text = 'collect ORGANS for REVENGE number \n'+lNumber; //display new score
 		}
 		else {
 			score --;
